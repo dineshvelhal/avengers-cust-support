@@ -25,9 +25,6 @@ that is helpful, knowledgeable, and reliable. 😊
 | Wong                      | The Wong AI                  |
 |---------------------------|------------------------------|
 | ![image](public/wong.png) | ![image](public/wong_ai.png) |
- |
-
-
 
 ## Team Members
 
