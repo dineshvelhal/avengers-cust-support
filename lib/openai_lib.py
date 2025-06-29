@@ -1,3 +1,6 @@
+# Author: Dinesh Velhal
+# Date  : 2025-06-29
+
 import json
 import logging
 import os
@@ -41,6 +44,7 @@ def system_message():
     Get the system message for the OpenAI chat completion.
     :return: System message string
     """
+    LOG.info("Creating system message for OpenAI chat completion...")
     return [{"role": "system", "content": SYSTEM_PROMPT}]
 
 def get_openai_client():
@@ -63,6 +67,7 @@ def get_updated_user_query(doc: str, message: str) -> str:
     :param message:
     :return:
     """
+    LOG.info("Generating updated user query based on the provided document and message...")
 
     json_doc = json.loads(doc)
     answer = json_doc.get("Answer", "")
@@ -87,7 +92,6 @@ Answer:        |
 ----------------
 
 """
-
     return prompt
 
 async def get_openai_response_stream(openai_client, messages: list) -> str:
