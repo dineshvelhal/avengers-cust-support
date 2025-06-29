@@ -17,11 +17,11 @@ that is helpful, knowledgeable, and reliable. 😊
 
 ## Team Members
 
-| # | Emp. Id | Name          | Email                          | Role                                      |
-|---|---------|---------------|--------------------------------|-------------------------------------------|
-| 1 | 36384   | Dinesh Velhal | dv0036384@techmahindra.com     | Tech Lead, Design, Development            |
-| 2 | 746756  | Rajnish Kumar | rk00746756@techmahindra.com    | Product / Requirements / Data Preparation |
-| 3 | 306885  | Sonali Shaha  | sonali.shaha@techmahindra.com  | Support                                   |
+| # | Emp. Id | Name                | Email                          | Role                                      |
+|---|---------|---------------------|--------------------------------|-------------------------------------------|
+| 1 | 36384   | **Dinesh Velhal**   | dv0036384@techmahindra.com     | Tech Lead, Design, Development            |
+| 2 | 746756  | **Rajnish Kumar**   | rk00746756@techmahindra.com    | Product / Requirements / Data Preparation |
+| 3 | 306885  | **Sonali Shaha**    | sonali.shaha@techmahindra.com  | Support                                   |
 
 
 ## Objectives
