@@ -38,12 +38,12 @@ that is helpful, knowledgeable, and reliable. 😊
 - **User Experience** - Customizable UI (Dark & Light mode), SShortcuts for frequently asked questions
 
 ## Technologies Used
-- **Python**: The primary programming language used for developing the chatbot.
-- **Chainlit**: A framework for building chatbots and other conversational applications.
-- **OpenAI**: Used for natural language processing and understanding.
-- **Pandas**: For data manipulation and analysis.
-- **JSON**: For data interchange and storage.
-- **ChromaDB**: A vector database for storing and retrieving knowledge base information.
+- `Python`: The primary programming language used for developing the chatbot.
+- `Chainlit`: A framework for building chatbots and other conversational applications.
+- `OpenAI`: Used for natural language processing and understanding.
+- `Pandas`: For data manipulation and analysis.
+- `JSON`: For data interchange and storage.
+- `ChromaDB`: A vector database for storing and retrieving knowledge base information.
 
 ## Next Steps (Production Readiness):
 ### Deployment Options
