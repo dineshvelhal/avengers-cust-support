@@ -3,7 +3,7 @@
 This chatbot is designed to assist customers with their queries. A knowledge base containing common customer queries for a fictitious telecom company is considered as a basis for RAG.
 
 We named the AI Assistant as **Wong AI**
-## Why <KBD>Wong AI</KBD>?
+## Why Wong AI?
 
 ## Team Members
 
