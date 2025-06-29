@@ -4,6 +4,9 @@ This chatbot is designed to assist customers with their queries. A knowledge bas
 
 We named the AI Assistant as **Wong AI**
 ## Why Wong AI?
+Our team's name is Avengers, and Wong AI is a reference to the character Wong from the Marvel Cinematic Universe, 
+who is known for his wisdom and ability to assist others. The name reflects our goal of creating an AI assistant 
+that is helpful, knowledgeable, and reliable.
 
 ## Team Members
 
