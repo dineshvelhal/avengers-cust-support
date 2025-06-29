@@ -71,7 +71,7 @@ In addition, a deployment pipeline with continuous testing must be built (coveri
 - The chatbot is currently limited to a single knowledge base and does not support multiple knowledge bases.
 - Support queries requiring complex reasoning or multi-turn conversations may not be handled effectively.
 - RAG is based on in-memory ChromaDB collection, which means for every new user session, the knowledge base needs to be reloaded, 
-which can lead to increased response times for the first query. (This can be mitigated by using a persistent ChromaDB collection, but that is not implemented in this prototype.)
+which can lead to increased response times for the first query. (This can be mitigated by using a persistent ChromaDB collection, which can be set up in production environments.)
 - The chatbot does not currently support voice input or output.
 - The chatbot does not have a fallback mechanism for queries that cannot be answered by the knowledge base.
 - The chatbot does not currently support multi-language queries or responses.
