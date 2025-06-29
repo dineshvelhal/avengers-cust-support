@@ -1,6 +1,6 @@
 # ASV ACCLAIM Assignment - Customer Support Chatbot (Team Avengers)
 
-This chatbot is designed to assist customers with their queries related to ASV ACCLAIM.
+This chatbot is designed to assist customers with their queries. A knowledge base for common customer queries for a fictitious telecom company is considered as a basis for RAG.
 
 ## Team Members
 
