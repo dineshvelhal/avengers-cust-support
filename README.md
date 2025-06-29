@@ -8,9 +8,9 @@ Our team's name is **Avengers**, and **Wong AI** is a reference to the character
 who is known for his wisdom and ability to assist others. The name reflects our goal of creating an AI assistant 
 that is helpful, knowledgeable, and reliable. 😊
 
-| Wong | The Wong AI |
-|------|-------------|
-| ![image](https://github.com/user-attachments/assets/192df52c-7e8f-45db-8980-3e2222d0df2a) | ![image](https://github.com/user-attachments/assets/d1dd8a29-bdda-449b-9615-6adc31623413)
+| Wong                      | The Wong AI                  |
+|---------------------------|------------------------------|
+| ![image](public/wong.png) | ![image](public/wong_ai.png) |
  |
 
 
