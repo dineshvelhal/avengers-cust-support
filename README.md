@@ -26,7 +26,7 @@ that is helpful, knowledgeable, and reliable. 😊
 |---------------------------|------------------------------|
 | ![image](public/wong.png) | ![image](public/wong_ai.png) |
 
-## Team Members
+## Team Avengers
 
 | # | Emp. Id | Name                | Email                          | Role                                      |
 |---|---------|---------------------|--------------------------------|-------------------------------------------|
