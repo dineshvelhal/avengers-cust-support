@@ -65,6 +65,7 @@ Chainlit allows multiple deployment options, including:
 - Deploy as a **Discord app**
 - Deploy as a **React app** for integrating with existing web applications
 - Deploy as a **Copilot** (As a sidebar in existing applications)
+
 More details can be found in the [Chainlit documentation](https://docs.chainlit.io/deploy/overview)
 
 In addition, a deployment pipeline with continuous testing must be built (covering unit tests, integration tests, end-to-end tests, security tests, and performance tests) to ensure the chatbot is production-ready.
