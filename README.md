@@ -30,8 +30,8 @@ that is helpful, knowledgeable, and reliable. 😊
 
 | # | Emp. Id | Name                | Email                          | Role                                      |
 |---|---------|---------------------|--------------------------------|-------------------------------------------|
-| 1 | 36384   | **Dinesh Velhal**   | dv0036384@techmahindra.com     | Tech Lead, Design, Development            |
-| 2 | 746756  | **Rajnish Kumar**   | rk00746756@techmahindra.com    | Product / Requirements / Data Preparation |
+| 1 | 36384   | **Dinesh Velhal**   | dv0036384@techmahindra.com     | Arhitecture, Design, Development, Testing |
+| 2 | 746756  | **Rajnish Kumar**   | rk00746756@techmahindra.com    | Data Preparation                          |
 | 3 | 306885  | **Sonali Shaha**    | sonali.shaha@techmahindra.com  | Support                                   |
 
 
@@ -56,6 +56,15 @@ that is helpful, knowledgeable, and reliable. 😊
 - `JSON`: For data interchange and storage.
 - `ChromaDB`: A vector database for storing and retrieving knowledge base information.
 
+## Important Design Decisions
+- Single Knowledge Base in the form of Excel file. (Scalable storage solution can be implemented in production)
+- RAG is implemented using in-memory ChromaDB collection for quick access to knowledge base information.
+- Guardrails are implemented to ensure that the chatbot only responds with information from the knowledge base.
+- Chainlit is used due to its rich conversational capabilities and flexible deployment options.
+- OpenAI is used as LLM provider (Any other LLM provider can be used as well, such as Azure OpenAI, HuggingFace, etc.)
+- Detailed logging is implemented to track user interactions and responses for future improvements.
+- Multi-modal support is out of scope for the current prototype, but can be added in future iterations.
+
 ## Next Steps (Production Readiness):
 ### Deployment Options
 Chainlit allows multiple deployment options, including:
@@ -76,15 +85,10 @@ In addition, a deployment pipeline with continuous testing must be built (coveri
 
 
 ## Appendix
-### Known limitations in the current prototype
-- No audit trail of user interactions.
+### Known `limitations / Out of scope` in the current prototype
+- No audit trail of interactions with LLM.
 - No user authentication or authorization.
-- Limited error handling and logging.
-- The chatbot is currently limited to a single knowledge base and does not support multiple knowledge bases.
 - Support queries requiring complex reasoning or multi-turn conversations may not be handled effectively.
-- RAG is based on in-memory ChromaDB collection, which means for every new user session, the knowledge base needs to be reloaded, 
-which can lead to increased response times for the first query. (This can be mitigated by using a persistent ChromaDB collection, which can be set up in production environments.)
-- The chatbot does not currently support voice input or output.
 - The chatbot does not have a fallback mechanism for queries that cannot be answered by the knowledge base.
 - The chatbot does not currently support multi-language queries or responses.
 - The chatbot does not have a mechanism for handling user feedback or ratings.
