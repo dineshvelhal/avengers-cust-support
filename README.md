@@ -28,11 +28,11 @@ that is helpful, knowledgeable, and reliable. 😊
 
 ## Team Avengers
 
-| # | Emp. Id | Name                | Email                          | Role                                      |
-|---|---------|---------------------|--------------------------------|-------------------------------------------|
-| 1 | 36384   | **Dinesh Velhal**   | dv0036384@techmahindra.com     | Arhitecture, Design, Development, Testing |
-| 2 | 746756  | **Rajnish Kumar**   | rk00746756@techmahindra.com    | Data Preparation                          |
-| 3 | 306885  | **Sonali Shaha**    | sonali.shaha@techmahindra.com  | Support                                   |
+| # | Emp. Id | Name                | Email                          | Role                                       |
+|---|---------|---------------------|--------------------------------|--------------------------------------------|
+| 1 | 36384   | **Dinesh Velhal**   | dv0036384@techmahindra.com     | Architecture, Design, Development, Testing |
+| 2 | 746756  | **Rajnish Kumar**   | rk00746756@techmahindra.com    | Data Preparation                           |
+| 3 | 306885  | **Sonali Shaha**    | sonali.shaha@techmahindra.com  | Support                                    |
 
 
 ## Objectives
