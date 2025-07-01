@@ -3,15 +3,16 @@
 <!-- TOC -->
 * [ASV ACCLAIM Assignment - Customer Support Chatbot (Team Avengers)](#asv-acclaim-assignment---customer-support-chatbot-team-avengers)
   * [Why Wong AI?](#why-wong-ai)
-  * [Team Members](#team-members)
+  * [Team Avengers](#team-avengers)
   * [Objectives](#objectives)
   * [Features](#features)
   * [Technologies Used](#technologies-used)
+  * [Important Design Decisions](#important-design-decisions)
   * [Next Steps (Production Readiness):](#next-steps-production-readiness)
     * [Deployment Options](#deployment-options)
     * [LLM/OpenAI](#llmopenai)
   * [Appendix](#appendix)
-    * [Known limitations in the current prototype](#known-limitations-in-the-current-prototype)
+    * [Known `limitations / Out of scope` in the current prototype](#known-limitations--out-of-scope-in-the-current-prototype)
 <!-- TOC -->
 
 This chatbot is designed to assist customers with their queries. A knowledge base containing common customer queries for a fictitious telecom company is considered as a basis for RAG.
